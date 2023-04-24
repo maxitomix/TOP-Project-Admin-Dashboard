@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    --clr-accent: 
+}
+
+body{
+    height: 100vh;
+    background-color: #bbbbbb;
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    grid-template-rows: 1fr 7fr;
+    grid-template-areas: 
+    "sidebarLeft header"
+    "sidebarLeft main";
+}
+
+.SectionSidebarLeft{
+    background-color: aqua;
+    grid-area: sidebarLeft;
+}
+
+.SectionHeader{
+   background-color:blanchedalmond;
+   grid-area: header;
+}
+
+.SectionMain{
+background-color:cadetblue;
+grid-area: main;
+display: grid;
+grid-template-columns: 2fr 1fr;
+}
+
+.ProjectsTitleContainer{
+    background-color:chocolate;
+}
+
+.projectsContainer{
+    background-color: orange;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.projectBox{
+    border: 1px solid red;
+    display: grid;
+}
+
+.announcementsTitleContainer{
+    background-color:blue;
+}
+
+.announcementsContainer{
+    background-color:lightblue;
+}
+
+.announcementBox{
+   
+}
+
+.trendingTitleContainer{
+    background-color:darkcyan;
+}
+
+.trendingContainer{
+    background-color: green;
+}
+
+.rendingItem{
+
+}
