@@ -7,21 +7,34 @@ body{
     height: 100vh;
     background-color: #bbbbbb;
     display: grid;
-    grid-template-columns: 1fr 7fr;
-    grid-template-rows: 1fr 7fr;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 5fr;
     grid-template-areas: 
     "sidebarLeft header"
     "sidebarLeft main";
 }
 
 .SectionSidebarLeft{
-    background-color: aqua;
+    background-color: #1990D1;
     grid-area: sidebarLeft;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    flex: 1;
+   
+    
 }
 
 .SectionHeader{
    background-color:blanchedalmond;
    grid-area: header;
+   display: grid;
+   grid-template-columns: 3fr 2fr;
+   justify-items: left;
+  
 }
 
 .SectionMain{
@@ -30,6 +43,7 @@ grid-area: main;
 display: grid;
 grid-template-columns: 2fr 1fr;
 }
+
 
 .ProjectsTitleContainer{
     background-color:chocolate;
@@ -68,4 +82,57 @@ grid-template-columns: 2fr 1fr;
 
 .rendingItem{
 
+}
+
+.logo{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.logo h1{
+    font-size:x-large ;
+    margin-left: 5%;
+}
+
+
+.LogoIcon{
+    fill: white;
+    height: 3rem;
+}
+
+.icon{
+    width: 1.2rem;
+    fill:white;
+    margin-right: 10%;
+}
+
+.SectionSidebarLeft ul{
+    width: 100%;
+    padding: 10% 10%;
+}
+
+.btnSearch{
+    background-color: transparent;
+    border-color: red;
+}
+.btnSearch:hover{
+    background-color: transparent;
+    border-color: red;
+    cursor: pointer;
+}
+
+.btnSearchIcon{
+    fill: black;
+    width: 2rem;
+ }
+
+.search, .greeting{
+    margin-left: 10%;
+   
+}
+
+.userAdmin, .nav{
+    margin-left: auto;
+    margin-right: auto;
 }

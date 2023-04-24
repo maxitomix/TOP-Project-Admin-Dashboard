@@ -1,6 +1,8 @@
 # TOP-Project-Admin-Dashboard
 https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard
 
+color pallete:https://coolors.co/1990d1-adc1cc-e2e8f0-f0b429-ffffff
+
 Assignment
 Step 1: Set Up and Planning
 Set up your HTML and CSS files with some simple dummy content, just to make sure you have everything linked correctly.
